@@ -1,7 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'us-central1-docker.pkg.dev/skilful-mercury-400917/demo-repository/tp4-image:tag1', '.']
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'us-central1-docker.pkg.dev/skilful-mercury-400917/demo-repository/tp4-image:tag1']
+  args: ['build', '-t', 'us-west2-docker.pkg.dev/skilful-mercury-400917/website-tools/exam-image:tag1', '.']
+#- name: 'gcr.io/cloud-builders/docker'
+  #args: ['push', 'us-central1-docker.pkg.dev/skilful-mercury-400917/demo-repository/tp4-image:tag1']
 images:
-  - 'us-central1-docker.pkg.dev/skilful-mercury-400917/demo-repository/tp4-image:tag1'
+  - 'us-west2-docker.pkg.dev/skilful-mercury-400917/website-tools/exam-image:tag1'

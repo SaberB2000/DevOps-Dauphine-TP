@@ -190,6 +190,8 @@ Notre but, ne l'oublions pas est de déployer wordpress sur Cloud Run !
    3. Regarder le resultat de votre commande `terraform apply` et observer les logs de Cloud Run
    4. Quelle est la raison de l'erreur ? Que faut-il changer dans les paramètre de notre ressource terraform `google_cloud_run_service` ?
 
+le cloud run n'arrive pas a écoiter sur l'application on doit spécifier le port
+
 3. A l'aide de la documentation terraform, d'internet ou de ChatGPT, ou même d'un certain TP 😌 faites en sorte que Cloud Run soit correctement configuré pour utiliser votre image Docker wordpress.
 
 4. Autoriser toutes les adresses IP à se connecter à notre base MySQL (sous réserve d'avoir l'utilisateur et le mot de passe évidemment)
